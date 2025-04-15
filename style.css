@@ -89,7 +89,6 @@
   
   p {
     margin-bottom: 1rem;
-    max-width: 800px;
   }
   
   /* Galería de pruebas */
@@ -168,6 +167,9 @@
   
   /* Footer */
   footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 2rem 0;
     text-align: center;
     font-size: 0.9rem;
