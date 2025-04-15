@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="/setts/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Pruebas Patológicas</title>
 </head>
 <body>
-    
+     <!-- Encabezado principal con logotipo -->
+  <header>
+    <img src="/setts/SaludMadrid.png" alt="Logotipo del laboratorio" width="150">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#pruebas">Pruebas</a></li>
+        <li><a href="#acerca">Acerca de</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <main>
+    <!-- Título principal -->
+    <section id="inicio">
+      <h1>Repositorio de Pruebas Patológicas</h1>
+      <p>Documentación visual y descriptiva de pruebas realizadas en el laboratorio.</p>
+    </section>
+
+    <!-- Sección tipo portafolio de pruebas -->
+    <section id="pruebas">
+      <h2>Pruebas realizadas</h2>
+
+      <article>
+        <figure>
+          <img src="img/prueba1.jpg" alt="Descripción de la imagen de la prueba 1">
+          <figcaption>Nombre de la prueba 1</figcaption>
+        </figure>
+        <h3>Descripción de la prueba</h3>
+        <p>Esta prueba consiste en... Se utiliza para... y su resultado fue...</p>
+      </article>
+
+      <article>
+        <figure>
+          <img src="img/prueba2.jpg" alt="Descripción de la imagen de la prueba 2">
+          <figcaption>Nombre de la prueba 2</figcaption>
+        </figure>
+        <h3>Descripción de la prueba</h3>
+        <p>En esta prueba se evaluó... usando métodos como... El desenlace fue...</p>
+      </article>
+
+      <!-- Puedes duplicar <article> para más pruebas -->
+    </section>
+
+    <!-- Sección Acerca de -->
+    <section id="acerca">
+      <h2>Sobre este proyecto</h2>
+      <p>Este repositorio fue creado con el objetivo de organizar y presentar visualmente las pruebas realizadas en el laboratorio, facilitando su consulta y documentación.</p>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 Repositorio Patológico. Todos los derechos reservados.</p>
+    <p>Contacto: <a href="mailto:info@laboratorioficticio.com">info@laboratorioficticio.com</a></p>
+    <ul>
+      <li><a href="#" aria-label="Facebook"><img src="icons/facebook.svg" alt="Facebook" width="24"></a></li>
+      <li><a href="#" aria-label="Instagram"><img src="icons/instagram.svg" alt="Instagram" width="24"></a></li>
+      <li><a href="#" aria-label="LinkedIn"><img src="icons/linkedin.svg" alt="LinkedIn" width="24"></a></li>
+    </ul>
+  </footer>
 </body>
 </html>
