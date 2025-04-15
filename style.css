@@ -113,7 +113,11 @@
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
   }
-  
+  #contacto{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+  }
   figure {
     margin: 0;
   }
@@ -132,6 +136,7 @@
   
   /* Formulario de contacto */
   form {
+    width: 75%;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
